@@ -1,0 +1,4 @@
+com/crowdar/examples/pages/GoogleHomePage.class
+com/crowdar/examples/pages/GoogleSearchResultPage.class
+com/crowdar/examples/steps/GoogleSteps.class
+com/crowdar/examples/pages/PageBaseGoogle.class
