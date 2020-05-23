@@ -1,4 +1,4 @@
-/home/mauricio/eclipse-workspace/Lippia-web-sample-project/src/main/java/com/crowdar/examples/steps/GoogleSteps.java
-/home/mauricio/eclipse-workspace/Lippia-web-sample-project/src/main/java/com/crowdar/examples/pages/GoogleHomePage.java
-/home/mauricio/eclipse-workspace/Lippia-web-sample-project/src/main/java/com/crowdar/examples/pages/GoogleSearchResultPage.java
-/home/mauricio/eclipse-workspace/Lippia-web-sample-project/src/main/java/com/crowdar/examples/pages/PageBaseGoogle.java
+/home/mauricio/eclipse-workspace/Lippia-microsoft/src/main/java/com/crowdar/examples/pages/GoogleSearchResultPage.java
+/home/mauricio/eclipse-workspace/Lippia-microsoft/src/main/java/com/crowdar/examples/pages/GoogleHomePage.java
+/home/mauricio/eclipse-workspace/Lippia-microsoft/src/main/java/com/crowdar/examples/pages/PageBaseGoogle.java
+/home/mauricio/eclipse-workspace/Lippia-microsoft/src/main/java/com/crowdar/examples/steps/GoogleSteps.java

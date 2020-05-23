@@ -112,12 +112,12 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Test_Suite" title="CrowdTestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The client search by &quot;vagrant&quot;&quot;, &quot;As a potential client i need to search in google to find a web si...)">runScenario("The client search by "vagrant"", "As a potential client i need to search in google to find a web si...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Test_Suite" title="CrowdTestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The client search by &quot;docker&quot;&quot;, &quot;As a potential client i need to search in google to find a web sit...)">runScenario("The client search by "docker"", "As a potential client i need to search in google to find a web sit...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-BDD_Test_Suite" title="CrowdTestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The client search by &quot;docker&quot;&quot;, &quot;As a potential client i need to search in google to find a web sit...)">runScenario("The client search by "docker"", "As a potential client i need to search in google to find a web sit...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-BDD_Test_Suite" title="CrowdTestNgRunner" class="method navigator-link" hash-for-method="runScenario(&quot;The client search by &quot;vagrant&quot;&quot;, &quot;As a potential client i need to search in google to find a web si...)">runScenario("The client search by "vagrant"", "As a potential client i need to search in google to find a web si...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-BDD_Test_Suite -->
@@ -144,9 +144,21 @@
                   </a> <!-- runScenario("The client search by "crowdar"", "As a potential client i need to search in google to find a web si...) -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("The client search by "crowdar"", "As a potential client i need to search in google to find a web site")</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Error creating driver: 
-	at com.crowdar.driver.DriverFactory.createDriver(DriverFactory.java:48)
-	at com.crowdar.driver.DriverManager.getDriverInstance(DriverManager.java:21)
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;mauricio-Latitude-E6430&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-101-generic&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.IJbL7a}, goog:chromeOptions: {debuggerAddress: localhost:45447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c8f3f8c11adda137eb42a1c8b729b35f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
 	at com.crowdar.report.ExtentReportManager.takeScreenshot(ExtentReportManager.java:295)
 	at com.crowdar.report.ExtentReportManager.addCucumberFailStep(ExtentReportManager.java:252)
 	at com.crowdar.report.ExtentReportManager.createResult(ExtentReportManager.java:188)
@@ -168,7 +180,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
@@ -180,9 +192,21 @@
                   </a> <!-- runScenario("The client search by "automation"", "As a potential client i need to search in google to find a web...) -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("The client search by "automation"", "As a potential client i need to search in google to find a web site")</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Error creating driver: 
-	at com.crowdar.driver.DriverFactory.createDriver(DriverFactory.java:48)
-	at com.crowdar.driver.DriverManager.getDriverInstance(DriverManager.java:21)
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;mauricio-Latitude-E6430&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-101-generic&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.IJbL7a}, goog:chromeOptions: {debuggerAddress: localhost:45447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c8f3f8c11adda137eb42a1c8b729b35f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
 	at com.crowdar.report.ExtentReportManager.takeScreenshot(ExtentReportManager.java:295)
 	at com.crowdar.report.ExtentReportManager.addCucumberFailStep(ExtentReportManager.java:252)
 	at com.crowdar.report.ExtentReportManager.createResult(ExtentReportManager.java:188)
@@ -204,43 +228,7 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Runs Cucumber Scenarios)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="runScenario(&quot;The client search by &quot;vagrant&quot;&quot;, &quot;As a potential client i need to search in google to find a web si...)">
-                  </a> <!-- runScenario("The client search by "vagrant"", "As a potential client i need to search in google to find a web si...) -->
-                  <span class="method-name">runScenario</span>
-                  <span class="parameters">("The client search by "vagrant"", "As a potential client i need to search in google to find a web site")</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Error creating driver: 
-	at com.crowdar.driver.DriverFactory.createDriver(DriverFactory.java:48)
-	at com.crowdar.driver.DriverManager.getDriverInstance(DriverManager.java:21)
-	at com.crowdar.report.ExtentReportManager.takeScreenshot(ExtentReportManager.java:295)
-	at com.crowdar.report.ExtentReportManager.addCucumberFailStep(ExtentReportManager.java:252)
-	at com.crowdar.report.ExtentReportManager.createResult(ExtentReportManager.java:188)
-	at com.crowdar.report.CucumberExtentReport.handleTestStepFinished(CucumberExtentReport.java:54)
-	at com.crowdar.report.CucumberEventListener$4.receive(CucumberEventListener.java:39)
-	at com.crowdar.report.CucumberEventListener$4.receive(CucumberEventListener.java:36)
-	at cucumber.runner.AbstractEventPublisher.send(AbstractEventPublisher.java:45)
-	at cucumber.runner.AbstractEventBus.send(AbstractEventBus.java:9)
-	at cucumber.runner.TimeServiceEventBus.send(TimeServiceEventBus.java:3)
-	at cucumber.runner.ThreadLocalRunnerSupplier$SynchronizedEventBus.send(ThreadLocalRunnerSupplier.java:90)
-	at cucumber.runner.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:63)
-	at cucumber.runner.TestStep.run(TestStep.java:57)
-	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
-	at cucumber.runner.TestCase.run(TestCase.java:44)
-	at cucumber.runner.Runner.runPickle(Runner.java:40)
-	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:68)
-	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
@@ -252,9 +240,21 @@
                   </a> <!-- runScenario("The client search by "docker"", "As a potential client i need to search in google to find a web sit...) -->
                   <span class="method-name">runScenario</span>
                   <span class="parameters">("The client search by "docker"", "As a potential client i need to search in google to find a web site")</span>
-                  <div class="stack-trace">java.lang.RuntimeException: Error creating driver: 
-	at com.crowdar.driver.DriverFactory.createDriver(DriverFactory.java:48)
-	at com.crowdar.driver.DriverManager.getDriverInstance(DriverManager.java:21)
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;mauricio-Latitude-E6430&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-101-generic&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.IJbL7a}, goog:chromeOptions: {debuggerAddress: localhost:45447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c8f3f8c11adda137eb42a1c8b729b35f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
 	at com.crowdar.report.ExtentReportManager.takeScreenshot(ExtentReportManager.java:295)
 	at com.crowdar.report.ExtentReportManager.addCucumberFailStep(ExtentReportManager.java:252)
 	at com.crowdar.report.ExtentReportManager.createResult(ExtentReportManager.java:188)
@@ -276,7 +276,55 @@
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
 	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 16 stack frames
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;The client search by &quot;vagrant&quot;&quot;, &quot;As a potential client i need to search in google to find a web si...)">
+                  </a> <!-- runScenario("The client search by "vagrant"", "As a potential client i need to search in google to find a web si...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("The client search by "vagrant"", "As a potential client i need to search in google to find a web site")</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.61)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;mauricio-Latitude-E6430&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-101-generic&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /tmp/.com.google.Chrome.IJbL7a}, goog:chromeOptions: {debuggerAddress: localhost:45447}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: c8f3f8c11adda137eb42a1c8b729b35f
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at com.crowdar.report.ExtentReportManager.takeScreenshot(ExtentReportManager.java:295)
+	at com.crowdar.report.ExtentReportManager.addCucumberFailStep(ExtentReportManager.java:252)
+	at com.crowdar.report.ExtentReportManager.createResult(ExtentReportManager.java:188)
+	at com.crowdar.report.CucumberExtentReport.handleTestStepFinished(CucumberExtentReport.java:54)
+	at com.crowdar.report.CucumberEventListener$4.receive(CucumberEventListener.java:39)
+	at com.crowdar.report.CucumberEventListener$4.receive(CucumberEventListener.java:36)
+	at cucumber.runner.AbstractEventPublisher.send(AbstractEventPublisher.java:45)
+	at cucumber.runner.AbstractEventBus.send(AbstractEventBus.java:9)
+	at cucumber.runner.TimeServiceEventBus.send(TimeServiceEventBus.java:3)
+	at cucumber.runner.ThreadLocalRunnerSupplier$SynchronizedEventBus.send(ThreadLocalRunnerSupplier.java:90)
+	at cucumber.runner.ThreadLocalRunnerSupplier$LocalEventBus.send(ThreadLocalRunnerSupplier.java:63)
+	at cucumber.runner.TestStep.run(TestStep.java:57)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:44)
+	at cucumber.runner.Runner.runPickle(Runner.java:40)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:68)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:22)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Runs Cucumber Scenarios)                  </em>
@@ -287,7 +335,7 @@
         </div> <!-- panel BDD_Test_Suite -->
         <div panel-name="test-xml-BDD_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/home/mauricio/eclipse-workspace/Lippia-web-sample-project/testng.xml</span>
+            <span class="header-content">/home/mauricio/eclipse-workspace/Lippia-microsoft/testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -348,24 +396,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'CrowdTestNgRunner')
-data.setCell(0, 3, 23858);
+data.setCell(0, 3, 13871);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'runScenario')
 data.setCell(1, 2, 'CrowdTestNgRunner')
-data.setCell(1, 3, 1895);
+data.setCell(1, 3, 15);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'runScenario')
 data.setCell(2, 2, 'CrowdTestNgRunner')
-data.setCell(2, 3, 1572);
+data.setCell(2, 3, 14);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'runScenario')
 data.setCell(3, 2, 'CrowdTestNgRunner')
-data.setCell(3, 3, 1557);
+data.setCell(3, 3, 12);
 window.suiteTableData['BDD_Test_Suite']= { tableData: data, tableDiv: 'times-div-BDD_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-BDD_Test_Suite">
               </div> <!-- times-div-BDD_Test_Suite -->
             </div> <!-- times-div -->
@@ -400,29 +448,29 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("The client search by "crowdar"", "As a potential client i need to search in google to find a web si...)</span>
-                <span class="method-start">374 ms</span>
+                <span class="method-start">132 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("The client search by "automation"", "As a potential client i need to search in google to find a web...)</span>
-                <span class="method-start">24253 ms</span>
+                <span class="method-start">14034 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("The client search by "docker"", "As a potential client i need to search in google to find a web sit...)</span>
-                <span class="method-start">25825 ms</span>
+                <span class="method-start">14051 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("The client search by "vagrant"", "As a potential client i need to search in google to find a web si...)</span>
-                <span class="method-start">27720 ms</span>
+                <span class="method-start">14067 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">29278 ms</span>
+                <span class="method-start">14080 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
