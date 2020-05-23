@@ -20,4 +20,8 @@ public class MicrosoftSearchResultPage extends PageBaseMicrosoft {
         return stats().getText();
     }
 
+    public String getTitle(){
+        return driver.getTitle();
+    }
+
 }
