@@ -24,7 +24,9 @@ public class MicrosoftLogInSteps extends PageSteps {
 
     @Then("The user is able to write his email")
     public void emailWrite() {
-        //Assert.assertFalse(!Injector._page(MicrosoftSearchResultPage.class).getStats().isEmpty());
-        Assert.assertEquals(Injector._page(MicrosoftSearchResultPage.class).getTitle(),"Iniciar sesión en tu cuenta Microsoft");
+        Assert.assertFalse(!Injector._page(MicrosoftSearchResultPage.class).getStats().isEmpty());
     }
+
+    @And("Clicks on the create a new account button")
+    public void searchNewAccountBtn() { Injector._page(MicrosoftHomePage.class).clickNewAccountBtn();   }
 }

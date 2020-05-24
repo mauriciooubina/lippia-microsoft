@@ -30,7 +30,14 @@ public class MicrosoftPasswordSteps extends PageSteps {
 
     @Then("The user is able to write his password")
     public void theUserIsAbleToWriteHisPassword() {
-        //Assert.assertFalse(!Injector._page(MicrosoftSearchResultPage.class).getStats().isEmpty());
+        Assert.assertFalse(!Injector._page(MicrosoftSearchResultPage.class).getStats().isEmpty());
+    }
+
+    @And("Clicks on the forgot password button")
+    public void searchForgotPasswordButton() {Injector._page(MicrosoftHomePage.class).clickForgotPasswordButton();  }
+
+    @Then("The user is able to recover his password")
+    public void theUserIsAbleToRecoverHisPassword() {
         Assert.assertEquals(Injector._page(MicrosoftSearchResultPage.class).getTitle(),"Iniciar sesión en tu cuenta Microsoft");
     }
 }

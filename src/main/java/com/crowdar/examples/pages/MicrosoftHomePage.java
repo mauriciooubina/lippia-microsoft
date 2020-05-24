@@ -10,6 +10,8 @@ public class MicrosoftHomePage extends PageBaseMicrosoft {
     private final String LOG_IN_BTN = "meControl";
     private final String INPUT_EMAIL_XPATH = "//*[@id=\"i0116\"]";
     private final String CONTINUE_BUTTON_NAME = "idSIButton9";
+    private final String NEW_ACCOUNT_BTN = "signup";
+    private final String FORGOT_PASSWORD_BTN = "idA_PWD_ForgotPassword";
 
     public MicrosoftHomePage(RemoteWebDriver driver) {
         super(driver);
@@ -33,4 +35,8 @@ public class MicrosoftHomePage extends PageBaseMicrosoft {
     public void writeEmail(String email) {completeField(By.xpath(INPUT_EMAIL_XPATH), email); }
 
     public void clickContinueButton() {clickElement(By.id(CONTINUE_BUTTON_NAME)); }
+
+    public void clickNewAccountBtn() {clickElement(By.id(NEW_ACCOUNT_BTN));   }
+
+    public void clickForgotPasswordButton() {clickElement(By.id(FORGOT_PASSWORD_BTN));}
 }
